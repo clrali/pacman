@@ -1,0 +1,26 @@
+.blinky {
+    background-color: red;
+    border: 0px;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0px;
+
+}
+
+.inky {
+    background-color: cyan;
+    border: 0px;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0px;
+}
+
+.scared-ghost {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    border: 5px solid rgb(0, 85, 243);
+}

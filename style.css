@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+}
+
+.text {
+    font-family: 'Macondo', cursive;
+    font-family: 'Roboto Mono', monospace;    
+    font-size: 200%;
+    font-weight: 900;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+.grid {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: rgb(83, 179, 147);
+    border: 5px solid rgb(231, 230, 230);
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: rgb(85, 108, 151);
+}
+
+.power-up {
+    background-color: rgb(83, 179, 147);
+}
+
+.empty {
+    background-color: rgb(231, 230, 230);
+}
+
+.ghost-hive {
+    background-color: rgb(231, 230, 230);
+}
+
+.pac-man {
+    background-color: rgb(238, 240, 136);
+    border: 4px solid rgb(221, 175, 46);
+    box-sizing: border-box;
+}
